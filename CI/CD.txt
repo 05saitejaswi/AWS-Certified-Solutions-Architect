@@ -1,0 +1,51 @@
+ci/cd 
+Define CI/CD.
+Describe the role CI/CD plays in the software development lifecycle.
+CI/CD stands for continuous integration and continuous delivery or deployment. We’ll break down more of what that means as we move through the course. 
+ci-smalll itterations in sdelc
+push into shared repository build test validate before merge 
+
+
+CI/CD integrates the work of development, security, and operations teams by continuously integrating changes into the code base and testing, validating, and deploying this code all throughout the development lifecycle.
+
+To summarize, core components of CI/CD include:
+
+Source code management in a single source repository, including everything needed for the build.
+
+Smaller code iterations for frequent integrations with the main branch.
+
+Automated builds to package and compile code.
+
+Continuous testing to check for code integrity, quality, and security compliance.
+
+Routine deployments that occur frequently and with lower risk.
+
+Why Implement CI/CD?
+We’ve alluded to some of the benefits of implementing CI/CD, but let’s take a closer look at how this can help software development teams in their day-to-day work. CI/CD tools make engineers' lives easier by giving them greater visibility into their pipelines, without burdening them with complicated integrations and plugin maintenance. It encourages collaboration across teams and simplifies code validation and builds. All of this leads to increased speed of innovation, higher code quality, faster feedback, fewer risks, and less bottlenecking.
+
+diagram depicting software delivery value stream in the continuous delivery and continuous improvement cycle including plan, create, integrate, verify, deploy, operate, monitor, and improve
+
+
+
+How CI/CD Improves Development
+
+
+Detects errors quickly- Developers can fix errors while they’re fresh in their mind, leading to less team stress.
+
+Delivers value frequently - Small and frequent iterations bring products and new features to market faster.
+
+Provides fast feedback - Smaller problems are easier to digest and ensure problems don’t compound.
+
+Increases efficiency -Developers have more time to work on new features and reduces the need for context switching.
+
+Lowers risk of release - Allows releases to be "boring", more predictable, and easier to plan for.
+
+Teams develop faster - More confidence among developers leads to less bottlenecking.
+
+Shortens response time - Fix bugs with a small update or roll back a change.
+
+Improves user experience - Better products mean higher customer satisfaction and confidence.
+
+Automating the SDLC
+This course assumes you have some familiarity with using GitLab, such as creating issues and committing and merging code. In this module, we want to contextualize where this content fits within the GitLab flow and review how it relates to CI/CD.
+gi
